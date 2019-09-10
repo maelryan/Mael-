@@ -1,0 +1,73 @@
+#img
+{ justify-content: center;border: 800px }
+
+.searchbox2 input {width: 482px; height: 34px}
+.search {width : 200 px, height:26px ;}
+.searchbox #class{ padding: 2px }
+
+.form {text-align: center;}
+
+#form-search { width: 450px;
+  line-height: 32px;
+  padding: 20px 10px;}
+
+.form #form-search { padding: 0 8px;}
+
+
+.buttons {text-align: center;
+  padding-top: 30px;
+  margin-bottom: 300px;}
+
+footer  {background: #f2f2f2;
+  border-top: solid 2px #e4e4e4;
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;}
+
+footer ul li {display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;}
+
+footer ul {
+  float: left;
+  padding: 1px;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  float: right;
+}
+@media screen and (max-width: 400px) {
+ 
+ li.nav-links a {
+    display: none;
+  }
+  
+ #google_logo {
+   padding: 0;
+ }
+  
+ .buttons {display: none;}
+  
+ #form-search {width: 80%;}
+  
+ footer {bottom: 0;}
+  
+ footer ul 
+ {float: none;
+   padding-bottom: 2px;}
+  
+ .footer-left 
+ {text-align: center;
+   margin: auto; 
+   padding-top: 10px;}
+  
+ .footer-right 
+ {float: none;
+   text-align: center; }
+
+
